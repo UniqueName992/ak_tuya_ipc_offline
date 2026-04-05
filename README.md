@@ -13,9 +13,10 @@ To configure until reboot:
 - Use the rtsp.sh script to use the custom binary (you will have to modify the TELNET_IP variable in the file)
 
 Or use an SD Card formatted to FAT32:
-- copy tmp_test.sh and ak_tuya_ipc onto the SD Card
+- Copy tmp_test.sh and ak_tuya_ipc onto the SD Card
 - Configure an IP address for getting the time (e.g. your router)
 - Power off the camera, plug the SD Card in, power back on
+- To undo all changes, power off, remove the sd card, and power on like normal
 
 Then:
 - Access the stream through rtsp://<CAMERA_IP>:554/jkstream
